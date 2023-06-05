@@ -30,7 +30,7 @@ def save_sequences_to_files(folder, sequences):
 alphabet = 'bcdfghjklnpqrstvwxyz'
 seq_length = 30
 matches = 10
-num_sequences = 50
+num_sequences = 30
 
 for n in [1, 2, 3]:
     sequences = generate_nback_sequences(n, alphabet, seq_length, matches, num_sequences)
